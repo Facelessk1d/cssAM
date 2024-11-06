@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Oswald:wght@200..700&family=Press+Start+2P&display=swap');
+@font-face {
+    font-family: 'Gst';
+    src: url('../fonts/ghastly/ofont.ru_GhastlyPanic.ttf') format('ttf');
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: "Press Start 2P", serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin-left: 7px;
+}
+a{
+    color: indigo;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active{
+    color: purple;
+}
+.ANTIMAGE {
+    color: indigo;
+}
+.skill {
+    width:175px;
+    border-radius: 15px;
+    box-shadow: 8px 10px 50px 1px rebeccapurple;
+   /* padding: 0px;
+    border: solid aqua;
+    border-width:0.00px
+    */
+    }
+   
+
+.all {
+    background: black;
+    width:90%;
+    margin: auto;
+}
+hr{
+    width: 1300px;
+        color:blue;
+}
+.name {
+    padding-bottom: 100px;
+}
+.submit {
+    background: transparent;
+    color: rgb(40, 115, 177);
+    padding: 15px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.position {
+position: relative;
+border: 2px solid indigo;
+margin-top: 25px;
+}
+.box {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 50px;
+    left: 1440px;
+    right:0;
+    background-color: rgb(40, 115, 177);
+    border-radius: 50px;
+}
+
+
+/*.chto-to div {
+    float: left;
+    background-color: white;
+    height: 300px;
+    width: 330px;
+    border: 4px solid indigo;
+    box-sizing: border-box;
+   
+}
+.AS {
+    background-color: blue;
+}
+    */
+.name td  {
+    color: aqua;
+}
+.ideas{
+    text-align: center;
+}
+.form-group label {
+display: block;
+font-size: 14px;
+}
+.form-group input,
+.form-group textarea{
+    width: 50%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color:indigo;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
